@@ -224,7 +224,7 @@ Time Body Gyroscope magnitude Jerk Signal mean of these values and then avg of e
 Time Body Gyroscope magnitude Jerk signla Standard Deviation of these values and then avg of each variable for each activity and each subject        
 
 
-All values below are a result of applying Fast Fourier Transform (FFT) to the signals described above producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). then the mean or standard deviatin or mean frequency of these values over x,y,z axis and then finally we take the avg of each variable for each activity and each subject
+##Below All values below are a result of applying Fast Fourier Transform (FFT) to the signals described above producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). then the mean or standard deviatin or mean frequency of these values over x,y,z axis and then finally we take the avg of each variable for each activity and each subject
 
 [43] "avg_sid_act_fBodyAcc-mean()-X"              
 [44] "avg_sid_act_fBodyAcc-mean()-Y"              
