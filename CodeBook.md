@@ -1,5 +1,42 @@
 	Data Dictonary - tidy data for Human Activity Recognition
 
+##VARIABLES for run_analysis.R
+
+sub_test: contains the table for subject test data
+x_test: contain the table for the x test file
+y_test: contains the test data for the y test which is the activities id file
+
+test: combination of all the test files
+
+sub_train: contains the table for subject train data
+x_train: contain the table for the x train file
+y_train: contains the train data for the y test which is the activities id file
+
+train: combination of all the train files
+
+
+combined: combination of the train and test dataset
+
+
+
+features:contains the features dataset
+
+#after the following command
+combined=combined[,c( 1,grep('.*mean.*|.*std.*', names(combined)),563)] 
+
+combined: contains only the mean and std columns
+
+
+labels:contains the dataset for the activity labels
+
+tidy_data: contains the tidy data formed after the aggregate function
+
+
+
+
+##TIDY DATA columns
+
+
  [1] "Subject_id"    Range for 1:30
 	
 Each row identifies the subject who performed the activity for each window sample
