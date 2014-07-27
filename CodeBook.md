@@ -21,7 +21,7 @@ combined: combination of the train and test dataset
 
 features:contains the features dataset
 
-#after the following command
+##after the following command, combined changes to
 combined=combined[,c( 1,grep('.*mean.*|.*std.*', names(combined)),563)] 
 
 combined: contains only the mean and std columns
