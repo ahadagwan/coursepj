@@ -1,3 +1,13 @@
+#IMPORTANT
+#when reading the tidy data file please use header= TRUE,
+#in read.table(mention in the rubics) as shown below
+
+#x=read.table("tidy_data.txt",header=TRUE)
+
+#this is used to indicate the first row contains
+#column names
+
+
 #Step 1
 #Merges the training and the test sets to create one data set.
 
